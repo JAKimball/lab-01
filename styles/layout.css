@@ -1,0 +1,170 @@
+header {
+  width: 480px;
+  height: 70px;
+  line-height: 70px;
+}
+
+aside {
+  float: left;
+  width: 480px;
+  height: 150px;
+  line-height: 150px;
+}
+
+body>section {
+  width: 480px;
+  height: 125px;
+  line-height: 125px;
+}
+
+body>.set {
+  float: left;
+  height: 250px;
+  width: 480px;
+  line-height: 250px;
+}
+
+body>.set>section {
+  width: 240px;
+}
+
+footer {
+  float: left;
+  height: 80px;
+  width: 480px;
+  line-height: 80px;
+}
+
+/* colors */
+
+#a {
+  background-color: #57577a;
+}
+
+#b {
+  background-color: #4f7472;
+}
+
+#c {
+  background-color: #6e4a6b;
+}
+
+#d {
+  background-color: #7a9773;
+}
+
+#e {
+  background-color: #797853;
+}
+
+#f {
+  background-color: #694c56;
+}
+
+#g {
+  background-color: #687b97;
+}
+
+#h {
+  background-color: #52756a;
+}
+
+#i {
+  background-color: #835b6a;
+}
+
+@media screen and (min-width: 768px) {
+
+  body {
+    width: 960px;
+    min-width: 960px;
+    margin: auto;
+  }
+
+  header {
+    width: 960px;
+    height: 100px;
+    line-height: 100px;
+  }
+
+  aside {
+    display: block;
+    height: 600px;
+    width: 200px;
+  }
+
+  body>section {
+    width: 380px;
+    height: 200px;
+    line-height: 125px;
+  }
+
+  body>.set {
+    width: 380px;
+    line-height: 250px;
+  }
+
+  body>.set>section {
+    width: 190px;
+  }
+
+  footer {
+    float: left;
+    height: 150px;
+    width: 760px;
+    line-height: 150px;
+  }
+
+  /* colors */
+
+  #a {
+    background-color: #4c4cbd;
+  }
+
+  #b {
+    background-color: #4cbdb7;
+  }
+
+  #c {
+    background-color: #bd4cb4;
+  }
+
+  #d {
+    background-color: #63bd4c;
+  }
+
+  #e {
+    background-color: #bdbb4c;
+  }
+
+  #f {
+    background-color: #bd4c72;
+  }
+
+  #g {
+    background-color: #4c79bd;
+  }
+
+  #h {
+    background-color: #4cbd97;
+  }
+
+  #i {
+    background-color: #bd4c77;
+  }
+
+}
+
+/* `Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+
+/* http://sonspring.com/journal/clearing-floats */
+
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
