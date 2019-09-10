@@ -1,0 +1,13 @@
+body {
+  vertical-align: middle;
+  text-align: center;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  /* width: 480px; */
+}
+
+section {
+  float: left;
+  display: block;
+}
