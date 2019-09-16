@@ -8,6 +8,6 @@ body {
 }
 
 section {
-  float: left;
+  /* float: left; */
   display: block;
 }
